@@ -1,5 +1,5 @@
 export const customerConfirmationPreview = {
-    name: 'Kamil Nowak',
+    name: 'Star Chain Labs',
     message: 'Have a project, opportunity, or idea in mind? Let’s talk.',
 } as const;
 
@@ -46,14 +46,11 @@ export const renderCustomerConfirmationBodyHtml = (message: string): string => {
     const quotedMessage = renderBreakableHtml(message);
 
     return (
-        '<p style="margin: 0 0 22px 0;">Your message has been received. Here is a copy for your records:</p>' +
-        // The frame and the accent are painted with background colours rather
-        // than CSS borders: clients that re-tint borders (Outlook's dark modes,
-        // forced-colours) leave `bgcolor` alone, so this cannot turn white.
-        `<table class="message-quote" role="presentation" cellpadding="0" cellspacing="0" width="100%" bgcolor="#14355a" style="width: 100%; max-width: 100%; margin: 0 0 24px 0; border: 0; border-radius: 6px; background-color: #14355a; table-layout: fixed;"><tr><td style="padding: 1px; font-size: 0; line-height: 0;"><table class="message-quote-panel" role="presentation" cellpadding="0" cellspacing="0" width="100%" bgcolor="#020a17" style="width: 100%; border: 0; border-radius: 5px; background-color: #020a17; table-layout: fixed;"><tr><td class="message-quote-accent" width="2" bgcolor="#63acf5" style="width: 2px; padding: 0; background-color: #63acf5; font-size: 0; line-height: 0;">&nbsp;</td><td class="message-quote-opening" width="44" valign="bottom" style="width: 44px; padding: 14px 0 20px 18px; vertical-align: bottom; color: #5daaff; font-family: 'Avenir Next', Avenir, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 44px; font-weight: 700; letter-spacing: -1px; line-height: 42px; text-shadow: 0 1px 1px #164b7f;">&bdquo;</td><td class="message-quote-content" style="padding: 29px 0; color: #f2f6fb; font-size: 18px; line-height: 30px; overflow-wrap: anywhere; word-break: break-word; word-wrap: break-word;">${quotedMessage}</td><td class="message-quote-closing" width="42" valign="top" align="right" style="width: 42px; padding: 8px 18px 14px 0; vertical-align: top; color: #5daaff; font-family: 'Avenir Next', Avenir, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 44px; font-weight: 700; letter-spacing: -1px; line-height: 42px; text-shadow: 0 1px 1px #164b7f;">&rdquo;</td></tr></table></td></tr></table>` +
-        '<p style="margin: 0;">I’ll review it and reply as soon as possible.</p>'
+        '<p style="margin: 0 0 22px 0;">Your inquiry has been received by Star Chain Labs. Here is a copy for your records:</p>' +
+        `<table class="message-quote" role="presentation" cellpadding="0" cellspacing="0" width="100%" bgcolor="#2D2421" style="width: 100%; max-width: 100%; margin: 0 0 24px 0; border: 0; border-radius: 6px; background-color: #2D2421; table-layout: fixed;"><tr><td style="padding: 1px; font-size: 0; line-height: 0;"><table class="message-quote-panel" role="presentation" cellpadding="0" cellspacing="0" width="100%" bgcolor="#080706" style="width: 100%; border: 0; border-radius: 5px; background-color: #080706; table-layout: fixed;"><tr><td class="message-quote-accent" width="2" bgcolor="#C5A059" style="width: 2px; padding: 0; background-color: #C5A059; font-size: 0; line-height: 0;">&nbsp;</td><td class="message-quote-opening" width="44" valign="bottom" style="width: 44px; padding: 14px 0 20px 18px; vertical-align: bottom; color: #C5A059; font-family: 'Avenir Next', Avenir, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 44px; font-weight: 700; letter-spacing: -1px; line-height: 42px; text-shadow: 0 1px 1px #1C1613;">&bdquo;</td><td class="message-quote-content" style="padding: 29px 0; color: #FDFBF7; font-size: 18px; line-height: 30px; overflow-wrap: anywhere; word-break: break-word; word-wrap: break-word;">${quotedMessage}</td><td class="message-quote-closing" width="42" valign="top" align="right" style="width: 42px; padding: 8px 18px 14px 0; vertical-align: top; color: #C5A059; font-family: 'Avenir Next', Avenir, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 44px; font-weight: 700; letter-spacing: -1px; line-height: 42px; text-shadow: 0 1px 1px #1C1613;">&rdquo;</td></tr></table></td></tr></table>` +
+        '<p style="margin: 0;">Our engineering team will review your specifications and reply shortly.</p>'
     );
 };
 
 export const renderCustomerConfirmationText = (message: string): string =>
-    `Your message has been received. Here is a copy for your records:\n\n${message}\n\nI’ll review it and reply as soon as possible.`;
+    `Your inquiry has been received by Star Chain Labs. Here is a copy for your records:\n\n${message}\n\nOur engineering team will review your specifications and reply shortly.`;

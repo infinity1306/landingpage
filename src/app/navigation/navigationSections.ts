@@ -22,15 +22,15 @@ export const sectionLandings: Record<SectionId, SectionLanding> = {
     experience: {
         type: 'position',
         positions: {
-            default: '17% top',
-            mobile: '17%+=210 top',
+            default: '24% top',
+            mobile: '24%+=120 top',
         },
     },
     projects: {
         type: 'position',
         positions: {
-            default: '62% top',
-            mobile: '63% top',
+            default: '60% top',
+            mobile: '60% top',
         },
     },
     contact: {

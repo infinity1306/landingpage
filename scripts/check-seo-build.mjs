@@ -6,7 +6,7 @@ import { existsSync } from 'node:fs';
 const scriptsDirectory = path.dirname(fileURLToPath(import.meta.url));
 const repositoryRoot = path.resolve(scriptsDirectory, '..');
 const distDirectory = path.join(repositoryRoot, 'dist');
-const siteOrigin = 'https://nowakkamil.com';
+const siteOrigin = 'https://starchainlabs.com';
 const failures = [];
 
 const fail = (message) => failures.push(message);
@@ -53,7 +53,7 @@ const routeToFile = (route) => {
 
 const sitemapSource = await fs.readFile(path.join(distDirectory, 'sitemap.xml'), 'utf8');
 const sitemapRoutes = [
-    ...sitemapSource.matchAll(/<loc>(https:\/\/nowakkamil\.com[^<]*)<\/loc>/g),
+    ...sitemapSource.matchAll(/<loc>(https:\/\/starchainlabs\.com[^<]*)<\/loc>/g),
 ].map((match) => new URL(match[1]).pathname);
 const expectedRoutes = new Set(sitemapRoutes);
 const checkedHtml = new Map();

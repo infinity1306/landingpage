@@ -47,7 +47,7 @@ afterEach(() => {
 describe('customer confirmation markup', () => {
     it('allows a single long token to wrap inside the message block', () => {
         const html = renderCustomerConfirmationBodyHtml(
-            'https://nowakkamil.com/https://nowakkamil.com/https://nowakkamil.com/',
+            'https://starchainlabs.com/https://starchainlabs.com/https://starchainlabs.com/',
         );
 
         assert.match(html, /table-layout: fixed/);
@@ -163,7 +163,7 @@ describe('contact Pages Function', () => {
         const ownerEmail = JSON.parse(String(calls[1]?.init?.body)) as Record<string, unknown>;
         assert.deepEqual(ownerEmail.to, [validEnv.CONTACT_RECIPIENT]);
         assert.equal(ownerEmail.reply_to, validBody.email);
-        assert.equal(ownerEmail.subject, 'Project inquiry via nowakkamil.com');
+        assert.equal(ownerEmail.subject, 'Project inquiry via starchainlabs.com');
         assert.match(String(ownerEmail.html), /New inquiry/);
         assert.match(String(ownerEmail.html), /Test Visitor/);
         assert.match(String(ownerEmail.html), /visitor@example\.com/);

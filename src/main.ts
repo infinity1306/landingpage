@@ -108,7 +108,7 @@ try {
     await world.ready;
     await yieldToMainThread();
 
-    if (import.meta.env.DEV) {
+    if (import.meta.env.DEV && window.location.search.includes('debug')) {
         const { initDebugGui } = await import('./debug/initDebugGui');
         const debugGui = initDebugGui(world.getDebugTargets());
         import.meta.hot?.dispose(() => debugGui.destroy());
@@ -267,6 +267,10 @@ try {
     ]);
     createIntroTextAnimation(responsiveConfig);
     initExperienceAnimations(responsiveConfig);
+    await yieldToMainThread();
+
+    const { initAuthModal } = await import('./auth/authModal');
+    initAuthModal();
     await yieldToMainThread();
 
     const loadContactFeatures = createFeatureLoader('contact interactions', async () => {

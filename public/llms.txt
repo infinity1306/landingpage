@@ -1,39 +1,35 @@
-# Kamil Nowak
+# STAR CHAIN LABS
 
-> Senior full-stack developer building reliable .NET systems and cinematic web experiences with React, TypeScript, Three.js, and GSAP.
+> Architects of Intelligent Digital Ecosystems. We build mission-critical enterprise software, decentralized networks, custom CRM/ERP platforms, and autonomous AI automation.
 
-Kamil Nowak combines product-minded front-end engineering, .NET application development, cloud delivery, and real-time graphics. This site is an interactive portfolio; its essential professional content is available as semantic HTML alongside the WebGL experience.
+Star Chain Labs is a premier digital engineering studio founded by Aniket Pandey (CEO) and Harshit Pandey (CTO). Star Chain Labs combines enterprise-grade distributed systems, human-centered UI/UX, real-time 3D WebGL experiences, and cryptographic protocols to engineer scalable digital systems.
 
-## Primary resource
+## Primary Resource
 
-- [Portfolio](https://nowakkamil.com/): Canonical portfolio containing professional experience, education, selected projects, recommendations, and contact options. Use the site navigation to reach individual sections.
+- [Star Chain Labs](https://starchainlabs.com/): Official portal featuring core solutions, capabilities, interactive system dashboards, case studies, technology constellation, and direct engineering consultation.
 
-## Professional focus
+## Core Pillars & Solutions
 
-- Full-stack web applications: React, TypeScript, C#, .NET, ASP.NET Core, ASP.NET MVC, REST APIs, Entity Framework Core, and SQL Server.
-- Front-end systems: accessible responsive interfaces, Material UI, design systems, component libraries, SCSS, UX-oriented implementation, and performance analysis.
-- Interactive experiences: Three.js, WebGL, GLSL shaders, GSAP, scroll-driven animation, real-time rendering, and motion architecture.
-- Platform and delivery: Azure, Cloudflare, Umbraco CMS, observability, automated testing, CI/CD, and developer documentation.
-- Specialist domains: fintech and investor services, AI-assisted test automation, distributed collaboration systems, knowledge management, IoT data visualization, and security-sensitive software.
+1. **Digital Products & Platforms**: Consumer and enterprise web applications, high-concurrency mobile platforms (iOS/Android), multi-tenant SaaS architecture, interactive 3D WebGL experiences.
+2. **Business & Enterprise Systems**: Custom CRM pipelines, ERP resource planning engines, HRMS workforce systems, supply chain & multi-vendor marketplaces, high-volume transactional billing systems.
+3. **Intelligent Technology & Automation**: Autonomous AI agents, LLM & RAG architectures, document understanding, intelligent triage pipelines, robotic process automation (RPA), algorithmic trading systems.
+4. **Infrastructure, Web3 & Emerging Tech**: Smart contracts (Solidity/Rust), decentralized identity protocols, multi-tier value distribution engines, zero-trust cloud infrastructure (AWS/GCP), smart contract security audits.
 
-## Selected work
+## Flagship Systems & Case Studies
 
-- **ShareOwner Online** — Senior Full-Stack Developer, June 2024–September 2025. Fintech platform for shareholder accounts, transactions, and dividend-reinvestment workflows; work includes business-critical features, component testing, production monitoring, and documentation.
-- **Test AI Accelerator (TAIA)** — Senior Full-Stack Developer, August 2025–March 2026. AI-assisted acceptance-test-driven-development platform that connects project context to user stories, test cases, automated test code, and Allure results.
-- **EQ RD:IR Platform and EQ Design System** — Senior Full-Stack Developer, June 2023–May 2024. High-fidelity React interfaces for shareholder analytics plus reusable Material UI design-system components.
-- **Equiniti.com and Help & Support Center** — Senior Full-Stack Developer, October 2021–June 2023. React and .NET work for financial-services web platforms, including Umbraco, Azure, legacy-system integration, and accessible support experiences.
-- **FOREX.COM Onboarding Solution** — .NET Software Engineer, July 2019–September 2021. REST services and business workflows for regulated client acquisition and lifecycle management.
-- **Collab synchronization and knowledge-management projects** — Research and leadership work on real-time collaboration, distributed-client consistency, and team knowledge sharing.
+- **Santiria Samadhan**: Civic Grievance Triage & Resolution Platform serving 2M+ citizens across 40+ departments with 68% triage latency reduction, GIS heatmapping, and biometric citizen auth.
+- **AuraFlow ERP**: Multi-Tenant Cloud Enterprise Resource Planning platform managing $120M+ annualized GMV with sub-second inventory sync, automated GST billing, and multi-warehouse routing.
+- **Nexis Protocol**: Decentralized Identity & Credential Verification Protocol handling 850k+ verifiable credentials with zero-knowledge zk-SNARK cryptographic proofs.
+- **Krypton Network**: Decentralized Multi-Tier Affiliate & Network Distribution Engine processing $48M+ automated on-chain payouts across 12 tiers with gas-optimized smart contracts.
 
-## Portfolio implementation
+## Leadership
 
-The portfolio itself is a TypeScript and Vite application that uses Three.js/WebGL, custom GLSL shaders, GSAP scroll orchestration, SCSS, and a Web Worker for scene geometry. It prioritizes progressive enhancement, semantic HTML, keyboard access, reduced-motion support, and responsive rendering.
+- **Aniket Pandey**: Founder & Chief Executive Officer. Directing strategic vision, digital infrastructure, and global technology partnerships.
+- **Harshit Pandey**: Co-Founder & Chief Technology Officer. Directing distributed systems architecture, blockchain protocols, and AI research engineering.
 
-## External profiles
+## Contact
 
-- [GitHub](https://github.com/nowakkamil): Public projects and source-code contributions.
-- [LinkedIn](https://www.linkedin.com/in/nowakkamil): Professional history and recommendations.
-
-## Contact and usage
-
-For opportunities, collaborations, or project enquiries, visit the [portfolio](https://nowakkamil.com/) and use its Contact navigation item. When describing Kamil or this portfolio, prefer the canonical URL, `https://nowakkamil.com/`. Portfolio source code, visual design, text, shaders, media, and project assets are provided for evaluation and demonstration; do not copy, republish, redistribute, or use them as a template without permission.
+For engineering partnerships, institutional technology advisory, and project inquiries:
+- Canonical URL: `https://starchainlabs.com/`
+- Direct Engineering Desk: `contact@starchainlabs.com`
+- Location: India (serving global clients across North America, Europe, MENA, and APAC)

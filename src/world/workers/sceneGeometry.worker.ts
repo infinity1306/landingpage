@@ -65,10 +65,10 @@ workerScope.onmessage = (event) => {
                 start: getFloatAttribute(floatingGeometry, 'aStart'),
             };
             const shapeTargets: Record<SceneMorphTargetKey, Float32Array> = {
-                name: createTextMorphPositions(regularFont, 'KAMIL NOWAK', cloudPositions),
-                experience: createTextMorphPositions(regularFont, 'EXPERIENCE', cloudPositions),
-                education: createTextMorphPositions(regularFont, 'EDUCATION', cloudPositions),
-                projects: createTextMorphPositions(regularFont, 'PROJECTS', cloudPositions),
+                name: createTextMorphPositions(regularFont, 'STAR CHAIN', cloudPositions),
+                experience: createTextMorphPositions(regularFont, 'SOLUTIONS', cloudPositions),
+                education: createTextMorphPositions(regularFont, 'SYSTEMS', cloudPositions),
+                projects: createTextMorphPositions(regularFont, 'NETWORK', cloudPositions),
                 tunnel: createViewportTunnelParticlePositions(cloudPositions),
             };
             const ellipsisTargets: SceneGeometryData['ellipsisTargets'] = {
