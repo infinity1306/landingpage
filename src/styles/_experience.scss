@@ -128,56 +128,56 @@
 
 @include responsive.down('mobile') {
     .experience {
-        gap: clamp(2.5rem, 6.5svh, 3.25rem);
-        padding-block: clamp(4rem, 10svh, 6rem);
+        gap: clamp(2.2rem, 5.5svh, 3rem);
+        padding-block: clamp(3.5rem, 8svh, 5rem);
     }
 
     .experience__section-spacer {
-        flex-basis: clamp(28rem, 64svh, 52rem);
-        height: clamp(28rem, 64svh, 52rem);
+        flex-basis: clamp(22rem, 50svh, 40rem);
+        height: clamp(22rem, 50svh, 40rem);
     }
 
     .experience__row {
         grid-template-columns: minmax(0, 1fr);
-        gap: 0.55rem;
-        padding-right: max(0.875rem, env(safe-area-inset-right));
-        padding-left: max(0.875rem, env(safe-area-inset-left));
+        gap: 0.45rem;
+        padding-right: max(1.1rem, env(safe-area-inset-right));
+        padding-left: max(1.1rem, env(safe-area-inset-left));
     }
 
     .experience__category {
-        gap: 0.75rem;
-        font-size: 0.72rem;
+        gap: 0.65rem;
+        font-size: 0.68rem;
         line-height: 1.3;
-        letter-spacing: 0.13em;
+        letter-spacing: 0.12em;
     }
 
     .experience__period {
         padding-top: 0;
-        font-size: 0.78rem;
+        font-size: 0.76rem;
         line-height: 1.35;
         letter-spacing: 0.035em;
     }
 
     .experience__organization {
-        margin-top: 0.3rem;
-        font-size: 0.8rem;
+        margin-top: 0.25rem;
+        font-size: 0.78rem;
     }
 
     .experience__role {
-        margin-bottom: 0.4rem;
-        font-size: clamp(1.15rem, 4vw, 1.35rem);
-        line-height: 1.2;
+        margin-bottom: 0.35rem;
+        font-size: clamp(1.15rem, 4.8vw, 1.35rem);
+        line-height: 1.22;
     }
 
     .experience__desc {
-        font-size: 1rem;
-        line-height: 1.65;
+        font-size: clamp(0.88rem, 2.5vw, 0.96rem);
+        line-height: 1.6;
         overflow-wrap: anywhere;
     }
 
     .experience__desc--technologies {
-        margin-top: 0.65rem;
-        font-size: 0.84rem;
+        margin-top: 0.55rem;
+        font-size: 0.8rem;
         line-height: 1.45;
     }
 }

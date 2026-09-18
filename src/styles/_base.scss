@@ -30,6 +30,7 @@ body {
     color: rgb(226 242 255 / 92%);
     font-family: Urbanist, sans-serif;
     font-size: clamp(12px, 1.4vw + 10px, 20px);
+    overflow-x: hidden;
 }
 
 body::after {
@@ -59,6 +60,13 @@ ul {
 @include responsive.down('tablet') {
     html,
     body {
-        font-size: clamp(16px, calc(0.62vw + 13.7px), 20px);
+        font-size: clamp(15px, calc(0.62vw + 13.7px), 18px);
+    }
+}
+
+@include responsive.down('mobile') {
+    html,
+    body {
+        font-size: clamp(14px, 3.2vw + 3px, 16px);
     }
 }

@@ -31,3 +31,4 @@ dist-ssr
 .continue
 .codeatlas
 .pnpm-store
+.vercel

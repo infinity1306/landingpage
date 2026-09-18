@@ -64,6 +64,17 @@
     }
 }
 
+@media (height <= 600px) {
+    .reveal-wrap {
+        bottom: max(3rem, calc(env(safe-area-inset-bottom) + 2rem));
+    }
+
+    .reveal-text {
+        font-size: clamp(1rem, 3.5vh, 1.25rem);
+        margin: 0.4rem auto;
+    }
+}
+
 @include responsive.reduced-motion {
     .reveal-line {
         will-change: auto;

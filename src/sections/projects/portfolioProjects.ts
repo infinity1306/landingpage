@@ -61,11 +61,11 @@ export const preloadAdjacentProjectDetails = async (project: PortfolioProject): 
 
 const digitalProductsProjects: PortfolioProject[] = [
     {
-        id: 'santiria-samadhan',
-        title: 'Santiria Samadhan — Civic Grievance Triage',
-        label: 'Civic Triage',
+        id: 'civicpulse-grid',
+        title: 'CivicPulse — Municipal Intelligence & Triage Grid',
+        label: 'Civic Intelligence',
         description:
-            'Intelligent civic grievance triage and verification platform featuring geo-tagged mobile submissions, computer vision authenticity checks, and administrative SLA dispatching.',
+            'Intelligent public grievance triage and verification platform featuring geo-tagged mobile submissions, computer vision authenticity checks, and automated SLA dispatching.',
         period: 'Production Deployment',
         role: 'Enterprise Solutions Architecture',
         skills: [
@@ -80,7 +80,7 @@ const digitalProductsProjects: PortfolioProject[] = [
             'docker',
         ],
         domain: 'Civic Technology / Public Administration',
-        owner: 'Star Chain Labs',
+        owner: 'Star Chain Labs (Aniket & Harshit Pandey)',
         constellation: {
             id: 'front-end',
             position: [-1.02, 0.82, -0.18],
@@ -110,7 +110,7 @@ const digitalProductsProjects: PortfolioProject[] = [
         constellation: {
             id: 'front-end',
             position: [-0.42, -0.16, 0.02],
-            links: ['santiria-samadhan'],
+            links: ['civicpulse-grid'],
         },
     },
 ];

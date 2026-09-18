@@ -17,7 +17,7 @@ Star Chain Labs is a premier digital engineering studio founded by Aniket Pandey
 
 ## Flagship Systems & Case Studies
 
-- **Santiria Samadhan**: Civic Grievance Triage & Resolution Platform serving 2M+ citizens across 40+ departments with 68% triage latency reduction, GIS heatmapping, and biometric citizen auth.
+- **CivicPulse Grid**: Municipal Intelligence & Grievance Triage Platform serving 2M+ citizens across 40+ departments with 68% triage latency reduction, GIS heatmapping, and biometric citizen auth.
 - **AuraFlow ERP**: Multi-Tenant Cloud Enterprise Resource Planning platform managing $120M+ annualized GMV with sub-second inventory sync, automated GST billing, and multi-warehouse routing.
 - **Nexis Protocol**: Decentralized Identity & Credential Verification Protocol handling 850k+ verifiable credentials with zero-knowledge zk-SNARK cryptographic proofs.
 - **Krypton Network**: Decentralized Multi-Tier Affiliate & Network Distribution Engine processing $48M+ automated on-chain payouts across 12 tiers with gas-optimized smart contracts.

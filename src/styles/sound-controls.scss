@@ -181,7 +181,17 @@
     }
 }
 
-@media (width <= 640px) {
+@media (width <= 767px) {
+    .sound-controls {
+        right: auto;
+        left: calc(0.85rem + env(safe-area-inset-left, 0px));
+        bottom: calc(0.85rem + env(safe-area-inset-bottom, 0px));
+    }
+
+    .music-attribution {
+        display: none;
+    }
+
     body:has(.contact-tabs:not([aria-hidden='true'])) {
         .sound-controls {
             bottom: calc(3.5rem + env(safe-area-inset-bottom, 0px));
@@ -191,10 +201,6 @@
         .sound-toggle {
             background: rgb(3 7 12 / 82%);
             backdrop-filter: none;
-        }
-
-        .music-attribution {
-            bottom: calc(3.5rem + env(safe-area-inset-bottom, 0px));
         }
     }
 }
